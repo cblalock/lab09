@@ -44,6 +44,7 @@ movq $0, %rax # xorq %rax, %rax is the same thing
 
 call printf
 
+
 #restore c in %rax
 popq %rax       #c in rax
 
